@@ -3,7 +3,7 @@
 	My name is Måns Andersson. I am a software engineer based in Stockholm, Sweden. I have a passion
 	for technology, I like building cool things, and I am always trying to learn more and improve.<br
 	/>
-	When I am not behind the desk I could be found lifting weights, climbing, skiing or reading.
+	When I am not behind the desk I can be found lifting weights, climbing, skiing or reading.
 </p>
 <h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Work</h1>
 <p class="text-gray-800 py-3 text-sm">
