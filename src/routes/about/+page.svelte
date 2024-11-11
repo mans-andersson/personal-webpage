@@ -7,13 +7,30 @@
 </p>
 <h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Work</h1>
 <p class="text-gray-800 py-3 text-sm">
-	2+ years of professional development expreience.<br /><br />
+	<!-- 2+ years of professional development expreience.<br /><br /> -->
 	My first software-related job was teaching others how to code. This was a great experience and I enjoy
 	trying to make seemingly complex things easier for others to understand.<br />
-	Now I work as a Software Engineer at Keyfactor, building PKI products to help secure all kinds of IT
-	infrastructures.
+	Now I work as a Full-stack Engineer at Quickbit, building modern payment solutions based on blockchain technology.
 </p>
 <div class="flex flex-col group">
+	<a
+		class="flex gap-1 justify-between group-hover:opacity-50 hover:!opacity-100"
+		href="https://quickbit.com/"
+		target="_blank"
+	>
+		<img
+			src="/qb_logo.svg"
+			alt="Quickbit logo"
+			class="bg-white rounded-full p-1 my-auto mr-1"
+			width="48px"
+			height="48px"
+		/>
+		<div class="flex flex-col flex-grow py-5 h-full">
+			<span class="text-gray-800 font-semibold flex-grow">Full-stack Engineer</span>
+			<span class="text-gray-600 font-semibold pr-auto">Quickbit</span>
+		</div>
+		<span class="text-gray-600 py-5 pr-8 h-full">2024 -</span>
+	</a>
 	<a
 		class="flex gap-1 justify-between group-hover:opacity-50 hover:!opacity-100"
 		href="https://keyfactor.com/"
@@ -30,7 +47,7 @@
 			<span class="text-gray-800 font-semibold flex-grow">Software Engineer</span>
 			<span class="text-gray-600 font-semibold pr-auto">Keyfactor</span>
 		</div>
-		<span class="text-gray-600 py-5 pr-8 h-full">2022 -</span>
+		<span class="text-gray-600 py-5 pr-8 h-full">2022 - 2024</span>
 	</a>
 	<a
 		class="flex gap-1 justify-between group-hover:opacity-50 hover:!opacity-100"
@@ -71,10 +88,14 @@
 </div>
 <h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Skills</h1>
 <p class="text-gray-800 pt-3 text-sm">
-	In my professional career I have worked mostly with back-end development, primarily in Java and
-	Python. From my master's degree in computer science I have a good foundation of CS, math and
-	software engineering knowledge.<br /><br />
-	Front-end development and design is something I have pursued mostly on my own time. One result of those
-	efforts is the webpage that you are currently on. The technologies I've worked the most with is React
-	and Tailwind.<br /><br />
+	The majority of professional has been back-end development.
+	I am familiar with writing business logic, designing RESTful endpoints, and working with ORM:s to handle data.
+	Most of by back-end work has been with Java and Python.<br/><br/>
+
+	In my full-stack work, I have also evolved my front-end skills. Working with TypeScript, React and doing A/B testing.
+	The website you are currently on, is built with Svelte and Tailwind.<br/><br/>
+
+	From my master's degree in computer science I have a good foundation of CS, math and
+	software engineering knowledge.
+	<br /><br />
 </p>

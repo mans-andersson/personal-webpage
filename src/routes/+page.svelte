@@ -45,5 +45,5 @@
 </div>
 <p class="text-gray-800 pt-3 text-sm">
 	I am a software engineer based in Stockholm, Sweden. I have a passion for technology, and I like
-	building cool things. Other things I enjoy is climbing, skiing, and fishing.
+	building cool things. Other things I enjoy are climbing, skiing, and fishing.
 </p>
