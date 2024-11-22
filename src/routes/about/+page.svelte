@@ -1,9 +1,27 @@
 <script>
   import CareerEntry from "../../components/CareerEntry.svelte";
+  import MoveableImage from "./MoveableImage.svelte";
 </script>
 
-<h1 class="text-gray-800 font-sans font-bold text-3xl">About</h1>
-<p class="text-gray-800 pt-3 text-sm">
+<h1 class="mb-6 text-gray-800 font-sans font-bold text-3xl">About</h1>
+<section class="flex">
+  <MoveableImage
+    imagePath="/images/yosemite.png"
+    imageAlt="Yosemite"
+    rotationDegree={6}
+  />
+  <MoveableImage
+    imagePath="/images/nyc2.png"
+    imageAlt="New York"
+    rotationDegree={-6}
+  />
+  <MoveableImage
+    imagePath="/images/lofoten.png"
+    imageAlt="Lofoten"
+    rotationDegree={8}
+  />
+</section>
+<p class="text-gray-800 mt-8 text-sm">
   My name is Måns Andersson. I am a software engineer based in Stockholm,
   Sweden. I have a passion for technology, I like building cool things, and I am
   always trying to learn more and improve.<br />
