@@ -1,6 +1,6 @@
 <script>
   import CareerEntry from "../../components/CareerEntry.svelte";
-  import MoveableImage from "./MoveableImage.svelte";
+  import MoveableImage from "../../components/MoveableImage.svelte";
 </script>
 
 <h1 class="mb-6 text-gray-800 font-sans font-bold text-3xl">About</h1>

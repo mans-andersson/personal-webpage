@@ -3,7 +3,7 @@
   let {
     imagePath,
     imageAlt,
-    rotationDegree,
+    rotationDegree = 0,
   }: {
     imagePath: string;
     imageAlt: string;
@@ -48,7 +48,26 @@
     alt={imageAlt}
     src={imagePath}
     bind:this={imgElement}
-    class="absolute h-48 lg:h-64 rounded-xl cursor-grab active:cursor-grabbing"
-    style="transform: rotate({rotationDegree}deg);"
+    class="absolute h-48 lg:h-64 rounded-xl cursor-grab active:cursor-grabbing fly-in"
+    style="--rotation-degree: {rotationDegree}deg;"
   />
 </div>
+
+<style>
+  .fly-in {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: flyIn 1s ease-out forwards;
+  }
+
+  @keyframes flyIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(var(--rotation-degree)) translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
