@@ -22,7 +22,6 @@
       imgElement.addEventListener("pointerdown", (event) => {
         event.preventDefault();
         imgElement!.style.transform = "rotate(0deg)";
-        imgElement!.style.zIndex = "10";
         imgElement!.setPointerCapture(event.pointerId);
         const rect = imgElement!.getBoundingClientRect();
         horizontalOffset = rect.x - event.clientX;
@@ -33,7 +32,6 @@
           event.preventDefault();
         });
         imgElement!.addEventListener("pointerup", (event) => {
-          imgElement!.style.zIndex = "0";
           imgElement!.releasePointerCapture(event.pointerId);
           imgElement!.removeEventListener("pointermove", moveImage);
         });
