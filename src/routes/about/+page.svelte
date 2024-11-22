@@ -6,17 +6,17 @@
 <h1 class="mb-6 text-gray-800 font-sans font-bold text-3xl">About</h1>
 <section class="flex">
   <MoveableImage
-    imagePath="/images/yosemite.png"
+    imagePath="/images/yosemite.webp"
     imageAlt="Yosemite"
     rotationDegree={6}
   />
   <MoveableImage
-    imagePath="/images/nyc2.png"
+    imagePath="/images/nyc2.webp"
     imageAlt="New York"
     rotationDegree={-6}
   />
   <MoveableImage
-    imagePath="/images/lofoten.png"
+    imagePath="/images/lofoten.webp"
     imageAlt="Lofoten"
     rotationDegree={8}
   />
