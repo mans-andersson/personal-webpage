@@ -10,6 +10,31 @@
   <MacWindow>
     <div class="flex items-start gap-4">
       <div class="flex flex-col gap-2">
+        <div>
+          <span class="text-gray-800 font-sans font-bold text-lg"
+            >3D Photo Desk</span
+          >
+          <p class="text-gray-650 text-sm">
+            I wanted to learn more about the Godot game engine, so I created
+            this 3D desk where you can look at photos.
+          </p>
+        </div>
+        <div class="">
+          <GithubLink
+            text="Github"
+            href="https://github.com/mans-andersson/photo_desk_3D"
+          />
+          <WebLink text="Hosted link" href="https://photo-desk.måns.dev/" />
+        </div>
+      </div>
+      <video class="rounded-lg max-w-80" autoplay loop muted>
+        <source src="/photo_desk.webm" type="video/webm" />
+      </video>
+    </div>
+  </MacWindow>
+  <MacWindow>
+    <div class="flex items-start gap-4">
+      <div class="flex flex-col gap-2">
         <img
           src="/ejbca_logo.png"
           alt="Project 1"
