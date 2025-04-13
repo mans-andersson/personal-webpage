@@ -70,7 +70,7 @@
     backgroundColor="#1751a6"
   />
 </div>
-<h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Skills</h1>
+<!-- <h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Skills</h1>
 <p class="text-gray-800 pt-3 text-sm">
   The majority of professional has been back-end development. I am familiar with
   writing business logic, designing RESTful endpoints, and working with ORM:s to
@@ -84,4 +84,4 @@
   From my master's degree in computer science I have a good foundation of CS,
   math and software engineering knowledge.
   <br /><br />
-</p>
+</p> -->
