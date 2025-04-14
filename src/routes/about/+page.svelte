@@ -24,17 +24,16 @@
 <p class="text-gray-800 mt-8 text-sm">
   My name is Måns Andersson. I am a software engineer based in Stockholm,
   Sweden. I have a passion for technology, I like building cool things, and I am
-  always trying to learn more and improve.<br />
+  always trying to learn and improve.<br />
   When I am not behind the desk I can be found lifting weights, climbing, skiing
   or reading.
 </p>
 <h1 class="text-gray-800 font-sans font-bold text-3xl mt-8">Work</h1>
 <p class="text-gray-800 py-3 text-sm">
-  <!-- 2+ years of professional development expreience.<br /><br /> -->
   My first software-related job was teaching others how to code. This was a great
   experience and I enjoy trying to make seemingly complex things easier for others
   to understand.<br />
-  Now I work as a Full-stack Engineer at Quickbit, building modern payment solutions
+  Currently I work as a Full-stack Engineer at Quickbit, building modern payment solutions
   based on blockchain technology.
 </p>
 <div class="flex flex-col group">
