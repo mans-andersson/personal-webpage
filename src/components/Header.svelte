@@ -15,12 +15,12 @@
 			href="/about">About</a
 		>
 		<a
-			class="hover:text-gray-800 px-3 {pathname === '/posts' ? 'bg-gray-300 rounded-xl' : ''}"
-			href="/posts">Posts</a
-		>
-		<a
 			class="hover:text-gray-800 px-3 {pathname === '/projects' ? 'bg-gray-300 rounded-xl' : ''}"
 			href="/projects">Projects</a
+		>
+		<a
+			class="hover:text-gray-800 px-3 {pathname === '/posts' ? 'bg-gray-300 rounded-xl' : ''}"
+			href="/posts">Posts</a
 		>
 	</nav>
 </header>
