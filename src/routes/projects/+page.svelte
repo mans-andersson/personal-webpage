@@ -84,7 +84,13 @@
         </div>
       </div>
       <div class="flex justify-center w-full md:w-auto">
-        <video class="rounded-lg max-w-64 md:max-w-80" autoplay loop muted>
+        <video
+          class="rounded-lg max-w-64 md:max-w-80"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
           <source src="/photo_desk.webm" type="video/webm" />
         </video>
       </div>
